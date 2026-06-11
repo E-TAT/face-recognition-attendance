@@ -23,6 +23,65 @@ The project aims to eliminate manual attendance processes, reduce human errors, 
 
 ---
 
+# 📸 Project Screenshots
+
+## User Interface
+
+<p align="center">
+  <img src="screenshots/main-menu-interface.jpg" width="45%">
+  <img src="screenshots/attendance-marking-interface.jpg" width="45%">
+</p>
+
+<p align="center">
+  <b>Main Menu</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attendance Marking Interface</b>
+</p>
+
+<p align="center">
+  <img src="screenshots/student-registration-interface.jpg" width="45%">
+  <img src="screenshots/attendance-reports-interface.jpg" width="45%">
+</p>
+
+<p align="center">
+  <b>Student Registration Interface</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Attendance Reports Interface</b>
+</p>
+
+---
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="screenshots/architecture-diagram.jpg" width="90%">
+</p>
+
+The system follows a layered architecture consisting of:
+- Presentation Layer (Tkinter GUI)
+- Application Layer (Attendance Manager, Face Detection, Face Recognition)
+- Processing Layer (OpenCV, face_recognition, dlib)
+- Data Layer (SQLite Database)
+- Hardware Layer (Webcam)
+
+---
+
+## 📋 Use Case Diagram
+
+<p align="center">
+  <img src="screenshots/use-case-diagram.jpg" width="90%">
+</p>
+
+This diagram illustrates the interactions between users and the attendance management system.
+
+---
+
+## 🔄 Sequence Diagram
+
+<p align="center">
+  <img src="screenshots/sequence-diagram.jpg" width="90%">
+</p>
+
+The sequence diagram shows the complete attendance marking workflow, from face capture to attendance storage in the database.
+
+---
+
 ## 🛠 Technology Stack
 
 ### Programming Language
