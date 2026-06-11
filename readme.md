@@ -1,5 +1,6 @@
 # Attendance System Using Face Recognition
 
+
 ## 📖 Overview
 
 Attendance System Using Face Recognition is a computer vision-based attendance management application developed using Python and OpenCV. The system automatically detects and recognizes registered users through a webcam and marks attendance without manual intervention.
