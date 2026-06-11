@@ -1,0 +1,8 @@
+opencv-contrib-python
+face_recognition
+dlib
+numpy
+pandas
+Pillow
+scipy
+cmake
